@@ -69,4 +69,3 @@ public class ChangeTextTest {
         driver.quit();
     }
 }
-

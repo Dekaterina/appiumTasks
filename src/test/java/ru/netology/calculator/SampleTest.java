@@ -35,7 +35,7 @@ public class SampleTest {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities(); // Базовые настройки
         desiredCapabilities.setCapability("appium:ensureWebviewsHavePages", true);
         desiredCapabilities.setCapability("appium:nativeWebScreenshot", true);
-        desiredCapabilities.setCapability("appium:newCommandTimeout", 3600);
+        desiredCapabilities.setCapability("appium:newCommandTimeout", 4600);
         desiredCapabilities.setCapability("appium:connectHardwareKeyboard", true);
 
         if (platform == Platform.Android) {
